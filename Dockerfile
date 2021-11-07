@@ -26,6 +26,7 @@ RUN yum makecache --timer \
  && yum -y install \
       sudo \
       which \
+      ca-certificates \
  && yum clean all
 
 # Disable requiretty.
