@@ -26,6 +26,8 @@ RUN yum makecache --timer \
  && yum -y install \
       sudo \
       which \
+      hostname \
+      procps-ng \
       ca-certificates \
  && yum clean all
 
